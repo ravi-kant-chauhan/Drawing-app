@@ -26,3 +26,9 @@
     width: 804px;
     padding: 1rem;
   }
+
+  .toolbox > * {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
