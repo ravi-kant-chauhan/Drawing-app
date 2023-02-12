@@ -24,4 +24,7 @@ canvas.addEventListener('mousedown', (e) => {
 
 document.addEventListener('mouseup', (e) => {
     isPressed = false
+
+    x = undefined
+    y = undefined
 })
