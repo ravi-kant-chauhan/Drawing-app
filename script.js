@@ -68,4 +68,6 @@ increaseBtn.addEventListener('click', () => {
     if(size > 50) {
         size = 50
     }
+    
+    updateSizeOnScreen()
 })
