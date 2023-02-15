@@ -71,3 +71,8 @@ increaseBtn.addEventListener('click', () => {
     
     updateSizeOnScreen()
 })
+
+decreaseBtn.addEventListener('click', () => {
+    size -= 5
+
+})
