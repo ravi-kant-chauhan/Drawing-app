@@ -14,7 +14,6 @@ let color = colorEl.value
 let x
 let y
 
-
 canvas.addEventListener('mousedown', (e) => {
     isPressed = true
 
@@ -83,6 +82,5 @@ decreaseBtn.addEventListener('click', () => {
 })
 
 colorEl.addEventListener('change', (e) => color = e.target.value)
-
 
 clearEl.addEventListener('click', () => ctx.clearRect(0,0, canvas.width, canvas.height))
